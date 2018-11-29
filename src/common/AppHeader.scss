@@ -1,0 +1,30 @@
+.app-header{
+    background: #f3f3f3;
+    border-top: 3px solid #009a61;
+    .wrap{
+        width: 980px;
+        margin: 0 auto;
+        height: 60px;
+        .title{
+            float: left;
+            height: 100%;
+            img{
+                height: 50%;
+                padding-top: 15px;
+            }
+        }
+        .nav{
+            float: left;
+            margin-left: 10px;
+            line-height: 60px;
+            a{
+                padding: 0 15px;
+                color: #666;
+                &.active{
+                    color: #009a61;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
